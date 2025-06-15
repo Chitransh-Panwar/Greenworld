@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Background Image with Opacity</title>
+    <style>
+    .pop-out {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border-radius: 20px;
+    }
+
+    .pop-out:hover {
+      transform: scale(1.05) translateY(-5px);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+      cursor: pointer;
+    }
+    </style>
+  </head>
+  <body>
+    
+    <!-- Background container -->
+    <div style="
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('bg2.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      opacity: 1;
+      z-index: -1;
+    "></div>
+
+    <!-- Foreground content -->
+    <div style="
+      position: relative;
+      
+      margin: 5% auto;
+      margin-top: 2.5%;
+      margin-bottom: 10px;
+      width: 80%;
+      
+      background-color: rgba(255, 255, 255, 0.5);
+      background-size: cover;
+      background-attachment: scroll;
+      background-position: center;
+      border-radius: 30px;
+      border: 5px solid grey;
+      padding: 20px;
+      padding-top: 0px;
+      z-index: 0;
+     "
+    >
+    <h1 style="
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    font-size: 40px;
+    ">Greenworld:Natural conservation</h1>
+    <p style="margin-left: 40px;text-indent: 35px;font-size: 20px;margin-top: 12px;"><i>GreenWorld is dedicated to the mission of natural conservation, aiming to protect and preserve the Earth's rich biodiversity and natural ecosystems.</i> By promoting sustainable practices, reforestation, wildlife protection, and environmental education, GreenWorld empowers communities to live in harmony with nature. The organization focuses on reducing human impact on the environment through innovative conservation projects and awareness campaigns. From protecting endangered species to restoring degraded landscapes, GreenWorld plays a vital role in ensuring a greener, <u>healthier planet for future generations.</u> Its commitment to environmental stewardship reflects the urgent need for collective action in safeguarding our planet’s natural heritage.</p>
+
+    <h2 style="
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    font-size: 30px;
+    ">
+        Our Mission
+    </h2>
+    <p style="margin-left: 40px;text-indent: 35px;font-size: 20px;margin-top: 12px; margin-right: 10px;">GreenWorld’s mission is to inspire and empower individuals and communities to protect and preserve the natural environment. As a non-profit organization, GreenWorld is committed to promoting sustainable living, conserving biodiversity, and combating environmental degradation through education, advocacy, and hands-on conservation efforts. The organization strives to raise awareness about the importance of forests, wildlife, clean air, and water, while encouraging eco-friendly practices and community involvement. By nurturing a deep respect for nature and fostering collective responsibility, GreenWorld aims to ensure a greener, healthier planet for present and future generations.</p>
+    <h4 style="
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    font-size: 25px;
+    ">Our first steps toward our missions</h4>
+    <div style="display: flex;">
+    <img src="camp1.jpg" alt="abc"
+    class="pop-out"
+    style="height: 30%;
+    width: 30%;
+    margin-left: 10%;
+    border-radius: 20px;">
+    <img 
+    src="ncc1.jpg" alt="abc1"
+    class="pop-out"
+    style="height: 30%;
+    width: 30%;
+    margin-top: 4px;
+    margin-left: 20%;
+    margin-right: 10%;
+    border-radius: 20px;">
+    </div>
+    <div style="display: flex;">
+    <p style="margin-left: 15%;font-size: 20px;">1. Create Awareness Campaigns</p>
+    <p style="margin-left: 33%;font-size: 20px;">2. Engage with Local Communities</p>
+    </div>
+    <div style="display: flex;">
+    <img src="pos2.jpg" alt="b"
+    class="pop-out"
+    style="height: 30%;
+    width: 30%;
+    margin-left: 10%;
+    border-radius: 20px;">
+    <img 
+    src="fin1.jpg" alt="a"
+    class="pop-out"
+    style="
+    width: 30%;
+    margin-top: 4px;
+    margin-left: 20%;
+    margin-right: 10%;
+    border-radius: 20px;">
+    </div>
+    <div style="display: flex;">
+    <p style="margin-left: 15%;font-size: 20px;">3. Develop Educational Materials</p>
+    <p style="margin-left: 33%;font-size: 20px;">4. Set Clear Short-Term Goals</p>
+    </div>
+    <h2 style="
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    font-size: 30px;
+    ">
+        Activities we have done so far
+    </h2>
+    <div style="display: flex;">
+    <p style="margin-left: 40px;text-indent: 35px;font-size: 20px;margin-top: 12px; margin-right: 10px;">GreenWorld has taken several impactful steps toward creating environmental awareness and promoting conservation. Our team has organized successful tree plantation drives, <b>where over 1,000 trees were planted</b> in deforested and urban areas to restore green cover. We have led cleanliness and plastic-free campaigns in local parks, markets, and riverbanks, encouraging the community to reduce single-use plastics and adopt waste segregation at the source.
+
+To promote sustainability from a young age, we’ve conducted interactive workshops in schools and colleges, focusing on topics like biodiversity, climate change, water conservation, and eco-friendly practices. We also held nature walks and bird-watching tours, helping people connect with and understand local ecosystems.
+
+In collaboration with local authorities, we’ve helped install recycling bins in key areas and conducted awareness rallies on World Environment Day, Earth Day, and Wildlife Week. GreenWorld also launched a “Grow Your Own Food” campaign, guiding urban households and students on starting small kitchen gardens to reduce carbon footprints and promote organic living.
+
+In rural areas, we supported rainwater harvesting projects and educated farmers about eco-friendly agriculture. We’ve distributed reusable cloth bags and eco-kits to reduce plastic dependency and empower local artisans.
+
+Each activity is a step forward in our mission to build a responsible, aware, and nature-loving society.</p>
+    <img src="plant.jpg" alt="c1"
+    class="pop-out"
+    style="height: 20%;
+    width: 20%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 10%;
+    border-radius: 20px;">
+    
+    </div>
+    </div>
+    <div style="
+    display: flex;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 0px;
+    font-size: 20px;
+    background-color: #2c5d63;
+    opacity: 1;
+    z-index: 0;
+    ">
+     <div style="
+     padding-top: 30px;
+     padding-bottom: 50px;
+     width: 20%;
+     margin-top: 10px;
+     margin-left: 15%;
+     ">
+    <p><a href="#" style="color: #ddd; text-decoration: none;">About Us</a></p>
+    <p><a href="#" style="color: #ddd; text-decoration: none;">Careers</a></p>
+    <p><a href="#" style="color: #ddd; text-decoration: none;">Press Releases</a></p></div>
+    <div style="
+     padding-top: 30px;
+     padding-bottom: 50px;
+     width: 20%;
+     margin-top: 10px;
+     margin-left: 10%;
+     ">
+     <p style="color: white;">you may also visit <br></p>
+    <a href="https://www.worldwildlife.org/" style="color: white;"> worldwildlife</a></div>
+    <div style="
+     padding-top: 30px;
+     padding-bottom: 50px;
+     width: 20%;
+     margin-top: 10px;
+     margin-left: 10%;
+     ">
+     <p style="color: white;">contact us at</p>
+    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" style="color: white;">rajchaudhary100102@gmail.com</a></div>
+    </div>
+
+
+
+  </body>
+</html>
